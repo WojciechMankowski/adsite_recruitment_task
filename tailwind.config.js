@@ -5,15 +5,13 @@ export default {
     extend: {
       colors: {
         mainColor: "#0147FF",
+        footer: "#282828"
       },
       fontFamily: {
         header: ' "Bebas Neue", sans-serif',
         paragraph: '"Roboto Condensed", sans-serif',
       },
-      fontSize: {
-        header: "3rem",
-        paragraphSize: "1rem",
-      },
+    
     },
   },
   plugins: [require("daisyui")],
