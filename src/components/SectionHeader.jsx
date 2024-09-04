@@ -1,7 +1,7 @@
 import HeaderImg from "../assets/IMG/header1.png";
 
 const SectionHeader = () => (
-  <section className="p-6 ">
+  <section className="py-6 ">
     <div className="container mx-auto">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="mb-6 lg:mb-0 lg:w-1/2">

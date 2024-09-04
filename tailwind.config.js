@@ -12,7 +12,7 @@ export default {
       },
       fontSize: {
         header: "3rem",
-        paragraphSize: "1rem"
+        paragraphSize: "1rem",
       },
     },
   },
