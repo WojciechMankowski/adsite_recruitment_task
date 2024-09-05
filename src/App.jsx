@@ -1,7 +1,7 @@
 import Menu from "./components/Menu";
-import SectionHeader from "./components/SectionHeader";
-import GallerySection from "./components/GallerySection";
-import Footer from "./components/Footer";
+import SectionHeader from "./views/SectionHeader";
+import GallerySection from "./views/GallerySection";
+import Footer from "./views/Footer";
 function App() {
   return (
     <>

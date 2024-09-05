@@ -1,7 +1,7 @@
-import MenuGallery from "./MenuGallery";
+import MenuGallery from "../components/MenuGallery";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SliderComponent from "./Slider";
+import SliderComponent from "../components/Slider";
 const GallerySection = () => (
   <section className="pb-14 pt-[95px]">
     <MenuGallery />
