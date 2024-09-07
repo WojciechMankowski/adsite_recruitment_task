@@ -1,10 +1,12 @@
-import React from "react";
-import HeaderImg from "../assets/IMG/header1.png";
-
-const HeaderImage = () => (
-  <div className="absolute top-0 right-0 w-full lg:w-1/2 -z-10">
-    <img src={HeaderImg} alt="Samochody z Europy" className="w-full h-auto" />
+import React from 'react';  
+import { data_imgs } from "../helpers/data_imgs";
+import IMg from "../assets/IMG/s (1).jpg";
+const HeaderImage = () => {
+  
+  return (
+  <div className="w-full lg:w-1/2 lg:relative">
+   {data_imgs.map(img => <img src={img.img} alt=""/>)}
   </div>
-);
+);}
 
 export default HeaderImage;

@@ -1,16 +1,14 @@
 import { ArrowDown } from "react-bootstrap-icons";
-// border-b border-2 border-white border-opacity-50
+
 const Footer = () => (
   <>
     <footer
-      class="bg-footer h-screen flex flex-col justify-between
-   text-white p-8 w-full
-   
-   
+      className="  w-full text-white   bg-footer flex flex-col 
+       justify-between 
    "
     >
-      <div class="container mx-auto p-4 flex justify-center  ">
-        <div class="w-1/2  p-4">
+      <div className="container mx-auto p-4 flex flex-col md:flex-row md:space-x-8 ">
+        <div className="w-full md:w-1/2 p-4 md:p-0 md:text-sm">
           <h2 className="font-header text-xl leading-9 font-medium tracking-[-3%]">
             Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
             nulla commodo.
@@ -21,7 +19,7 @@ const Footer = () => (
             venenatis eros ipsum ac arcu. Vestibulum et [...]
           </p>
           <button
-            class="text-white flex items-center border-b 
+            className="text-white flex items-center border-b 
        font-roboto-condensed text-sm font-normal leading-6 text-left pt-6
         "
           >
@@ -29,7 +27,7 @@ const Footer = () => (
             <ArrowDown />
           </button>
         </div>
-        <div class="w-1/2  p-4">
+        <div className="w-full md:w-1/2 p-4 md:p-0 md:text-sm">
           <h2 className="font-header text-xl leading-9 font-medium tracking-[-3%]">
             Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
             nulla commodo.
@@ -40,7 +38,7 @@ const Footer = () => (
             venenatis eros ipsum ac arcu. Vestibulum et [...]
           </p>
           <button
-            class="text-white flex items-center border-b 
+            className="text-white flex items-center border-b 
        font-roboto-condensed text-sm font-normal leading-6 text-left pt-6
         "
           >
@@ -49,11 +47,17 @@ const Footer = () => (
           </button>
         </div>
       </div>
-
-      {/* <div class="border-b border-2 border-white border-opacity-50"></div> */}
     </footer>
-    <div className="bg-footer  text-white p-8 w-full">
-      <div class="w-full  p-4 text-center">Stopka na dole</div>
+    <div className="h-0.5 bg-white"></div>
+    <div className="bg-footer  text-white w-full flex justify-between">
+      <div className="p-4">
+        <span>Car Sport</span>
+      </div>
+      <div className="p-4">
+        <a href="#" className="underline cursor-pointer">
+          Polityka prywatności
+        </a>
+      </div>
     </div>
   </>
 );
