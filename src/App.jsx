@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       {/* Komponent Menu z przekazaniem stanu i funkcji do zmiany stanu */}
-      <Menu isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Menu isOpen={isOpen} setIsOpen={setIsOpen} isDesktop={isDesktop} />
       {/* Główna zawartość strony */}
       <main className="w-full lg:pl-8">
         {/* Komponent SectionHeader, który jest kompomentem 
