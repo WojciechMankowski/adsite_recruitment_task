@@ -4,7 +4,7 @@ const Footer = () => (
   <>
     <footer
       className="  w-full text-white   bg-footer flex flex-col 
-       justify-between 
+       justify-between  
    "
     >
       <div className="container mx-auto p-4 flex flex-col md:flex-row md:space-x-8 ">

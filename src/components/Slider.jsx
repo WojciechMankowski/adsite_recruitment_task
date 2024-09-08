@@ -37,7 +37,7 @@ const SliderComponent = ({ isDesktop }) => {
   ));
 
   return (
-    <div className="h-screen w-full overflow-visible">
+    <div className=" w-full overflow-visible">
       <Slider {...sliderSettings}>{imgElements}</Slider>
     </div>
   );
