@@ -1,4 +1,4 @@
-import Menu from "./views/Menu";
+import Navbar from "./views/Menu";
 import SectionHeader from "./views/SectionHeader";
 import GallerySection from "./views/GallerySection";
 import Footer from "./views/Footer";
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Menu isOpen={isOpen} setIsOpen={setIsOpen} isDesktop={isDesktop} />
+      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} isDesktop={isDesktop} />
       <main className="w-full lg:pl-8">
         <SectionHeader isDesktop={isDesktop} />
         <GallerySection isDesktop={isDesktop} />
